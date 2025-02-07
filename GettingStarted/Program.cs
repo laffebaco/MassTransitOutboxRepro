@@ -25,7 +25,7 @@ namespace GettingStarted
 
                         x.UsingRabbitMq((context,cfg) =>
                         {
-                            cfg.Host("localhost", 5673, "/", c => { });
+                            //cfg.Host("localhost", 5673, "/", c => { });
 
                             cfg.ConfigureEndpoints(context);
 
